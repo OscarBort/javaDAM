@@ -1,3 +1,4 @@
+//https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html
 import java.lang.Math;
 public class ejemplosMath {
     public static void main(String[] args) {

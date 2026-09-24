@@ -4,10 +4,11 @@ public class Ejemplos2 {
         Scanner datos = new Scanner(System.in);
         System.out.println("Ingrese la base del rectángulo: ");
         double base = datos.nextDouble();
-        datos.nextLine();
+        //datos.nextLine();
         System.out.println("Ingrese la altura del rectángulo: ");
         double altura = datos.nextDouble();
         double area = base * altura;
         System.out.println("Es area del rectángulo es: " + area);
+        datos.close();
     }
 }
