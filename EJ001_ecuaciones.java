@@ -23,7 +23,7 @@ public class EJ001_ecuaciones {
         double c = datos.nextDouble();
 
         double res1 = (-b - Math.sqrt(Math.pow(b, 2) -4 * a * c)) / (2 * a);
-        double res2 = (-b + Math.sqrt(Math.pow(b, 2) -4 * a * c)) / (2 *a);
+        double res2 = (-b + Math.sqrt(Math.pow(b, 2) -4 * a * c)) / (2 * a);
 
         System.out.println("El primer resultado es: " + res1);
         System.out.println("El primer resultado es: " + res2);
