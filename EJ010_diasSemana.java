@@ -9,7 +9,7 @@ public class EJ010_diasSemana {
 
         int dia = sc.nextInt();
 
-        /*switch (dia) {
+        switch (dia) {
             case 1:
                 System.out.println("Hoy es lunes.");
                 break;
@@ -34,7 +34,7 @@ public class EJ010_diasSemana {
             default:
                 System.out.println("Bebe menos red bull");
                 break;
-        }*/
+        }
 
         // En este ejemplo, aprovechamos que del 1 al 5 devuelven lo mismo para poner solo un break al final.
         switch (dia) {
