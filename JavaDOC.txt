@@ -1,0 +1,2 @@
+Entrar en la ruta de los archivos, y en powershell ejecutar el comando:
+ & "C:\Program Files\Java\jdk-25.0.4.1\bin\javadoc.exe" -author -d docs -encoding UTF-8 -docencoding UTF-8 (Get-ChildItem *.java).Name

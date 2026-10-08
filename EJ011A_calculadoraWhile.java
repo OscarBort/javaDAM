@@ -15,7 +15,7 @@ public class EJ011A_calculadoraWhile {
             System.out.println("0 - cerrar");
 
             operacion = opcion.nextInt();
-            
+            /** Como aquí ya tenemos un valor en operacion, podemos aprovechar el if dentro del primer do */ 
             if(operacion < 0 || operacion > 4) {
                 System.out.println("-------------------------");
                 System.out.println("Opción inválida, introduce una opción correcta:");
