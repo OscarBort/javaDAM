@@ -1,3 +1,4 @@
+import java.util.Random;
 /**
  * @author Oscar Bort
  */
@@ -5,11 +6,12 @@ public class EJ030_arrays {
     public static void main(String[] args) {
     // Vamos a crear un array de 10 número enteros
 
+    Random r = new Random();
     int muestra1 [] = new int[100];
     int max = 0, min = 0, sum = 0;
 
     for (int i = 0; i < muestra1.length; i++){
-        muestra1[i] = (int)(Math.random() * 101 - 50);
+        muestra1[i] = r.nextInt(101) - 50;//(int)(Math.random() * 101 - 50);
         if (i == 0){
             max = muestra1[i];
             min = muestra1[i];
